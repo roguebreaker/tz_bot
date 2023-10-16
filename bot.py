@@ -1,12 +1,9 @@
-#import asyncio
 import os
 import discord
 import requests
 import json
 import sys
 from dotenv import load_dotenv
-#from discord.ext import commands
-#from discord.utils import get
 
 TZ_ID_TO_STRING = {
     17: "Burial Grounds</br>Crypt</br>Mausoleum",
