@@ -51,7 +51,7 @@ client = discord.Client(intents=intents)
 
 @client.event
 async def on_ready():
-    url = 'https://www.d2emu.com//api/v1/tz'
+    url = 'https://www.d2emu.com/api/v1/tz'
     channel = client.get_channel(1070419768508678236)
 
     response = requests.get(url)
